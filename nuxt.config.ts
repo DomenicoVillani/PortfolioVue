@@ -17,4 +17,7 @@ export default defineNuxtConfig({
     'primeflex/primeflex.scss',
     'primevue/resources/themes/md-light-indigo/theme.css'  ],
   ssr:false,
+  app: {
+    baseURL: '/PortfolioVue/',
+  },
 })
